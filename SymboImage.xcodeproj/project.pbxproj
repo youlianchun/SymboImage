@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93444AC2564CC8900CBA152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444AB2564CC8900CBA152 /* AppDelegate.m */; };
+		A93444AF2564CC8900CBA152 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444AE2564CC8900CBA152 /* SceneDelegate.m */; };
+		A93444B22564CC8900CBA152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444B12564CC8900CBA152 /* ViewController.m */; };
+		A93444B52564CC8900CBA152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93444B32564CC8900CBA152 /* Main.storyboard */; };
+		A93444B72564CC8A00CBA152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93444B62564CC8A00CBA152 /* Assets.xcassets */; };
+		A93444BA2564CC8A00CBA152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93444B82564CC8A00CBA152 /* LaunchScreen.storyboard */; };
+		A93444BD2564CC8A00CBA152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444BC2564CC8A00CBA152 /* main.m */; };
+		A93444C62564EEFE00CBA152 /* SymboImageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444C52564EEFE00CBA152 /* SymboImageConfig.m */; };
+		A93444CF2564F6EC00CBA152 /* SymboImageAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444CE2564F6EC00CBA152 /* SymboImageAsset.m */; };
+		A93444D9256500CF00CBA152 /* SymboImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444D8256500CF00CBA152 /* SymboImageProvider.m */; };
+		A93444FD25666DCD00CBA152 /* UIImage+SymboImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A93444FC25666DCD00CBA152 /* UIImage+SymboImage.m */; };
+		A934450C25667C0B00CBA152 /* ImageDynamicAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A934450A25667C0B00CBA152 /* ImageDynamicAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A934450F25667C0B00CBA152 /* ImageDynamicAsset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A934450825667C0B00CBA152 /* ImageDynamicAsset.framework */; };
+		A934451025667C0B00CBA152 /* ImageDynamicAsset.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A934450825667C0B00CBA152 /* ImageDynamicAsset.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A934451A25667C3300CBA152 /* UIImage+ImageDynamicAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A934451625667C3300CBA152 /* UIImage+ImageDynamicAsset.m */; };
+		A934451B25667C3300CBA152 /* UIImage+ImageDynamicAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A934451725667C3300CBA152 /* UIImage+ImageDynamicAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A934451D25667C3300CBA152 /* ImageDynamicAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A934451925667C3300CBA152 /* ImageDynamicAsset.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A934450D25667C0B00CBA152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A934449F2564CC8900CBA152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A934450725667C0B00CBA152;
+			remoteInfo = ImageDynamicAsset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A934451425667C0B00CBA152 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A934451025667C0B00CBA152 /* ImageDynamicAsset.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A93444A72564CC8900CBA152 /* SymboImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymboImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93444AA2564CC8900CBA152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A93444AB2564CC8900CBA152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A93444AD2564CC8900CBA152 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A93444AE2564CC8900CBA152 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A93444B02564CC8900CBA152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A93444B12564CC8900CBA152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A93444B42564CC8900CBA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93444B62564CC8A00CBA152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93444B92564CC8A00CBA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93444BB2564CC8A00CBA152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93444BC2564CC8A00CBA152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A93444C42564EEFE00CBA152 /* SymboImageConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymboImageConfig.h; sourceTree = "<group>"; };
+		A93444C52564EEFE00CBA152 /* SymboImageConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymboImageConfig.m; sourceTree = "<group>"; };
+		A93444CD2564F6EC00CBA152 /* SymboImageAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymboImageAsset.h; sourceTree = "<group>"; };
+		A93444CE2564F6EC00CBA152 /* SymboImageAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymboImageAsset.m; sourceTree = "<group>"; };
+		A93444D8256500CF00CBA152 /* SymboImageProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymboImageProvider.m; sourceTree = "<group>"; };
+		A93444DB256500DE00CBA152 /* SymboImageProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymboImageProvider.h; sourceTree = "<group>"; };
+		A93444FB25666DCD00CBA152 /* UIImage+SymboImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SymboImage.h"; sourceTree = "<group>"; };
+		A93444FC25666DCD00CBA152 /* UIImage+SymboImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SymboImage.m"; sourceTree = "<group>"; };
+		A934450825667C0B00CBA152 /* ImageDynamicAsset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageDynamicAsset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A934450A25667C0B00CBA152 /* ImageDynamicAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDynamicAsset.h; sourceTree = "<group>"; };
+		A934450B25667C0B00CBA152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A934451625667C3300CBA152 /* UIImage+ImageDynamicAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageDynamicAsset.m"; sourceTree = "<group>"; };
+		A934451725667C3300CBA152 /* UIImage+ImageDynamicAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageDynamicAsset.h"; sourceTree = "<group>"; };
+		A934451925667C3300CBA152 /* ImageDynamicAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDynamicAsset.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93444A42564CC8900CBA152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A934450F25667C0B00CBA152 /* ImageDynamicAsset.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A934450525667C0B00CBA152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A934449E2564CC8900CBA152 = {
+			isa = PBXGroup;
+			children = (
+				A93444A92564CC8900CBA152 /* SymboImage */,
+				A934450925667C0B00CBA152 /* ImageDynamicAsset */,
+				A93444A82564CC8900CBA152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93444A82564CC8900CBA152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93444A72564CC8900CBA152 /* SymboImage.app */,
+				A934450825667C0B00CBA152 /* ImageDynamicAsset.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93444A92564CC8900CBA152 /* SymboImage */ = {
+			isa = PBXGroup;
+			children = (
+				A93444AA2564CC8900CBA152 /* AppDelegate.h */,
+				A93444AB2564CC8900CBA152 /* AppDelegate.m */,
+				A93444AD2564CC8900CBA152 /* SceneDelegate.h */,
+				A93444AE2564CC8900CBA152 /* SceneDelegate.m */,
+				A93444B02564CC8900CBA152 /* ViewController.h */,
+				A93444B12564CC8900CBA152 /* ViewController.m */,
+				A934450025666EBB00CBA152 /* SymboImage */,
+				A93444B32564CC8900CBA152 /* Main.storyboard */,
+				A93444B62564CC8A00CBA152 /* Assets.xcassets */,
+				A93444B82564CC8A00CBA152 /* LaunchScreen.storyboard */,
+				A93444BB2564CC8A00CBA152 /* Info.plist */,
+				A93444BC2564CC8A00CBA152 /* main.m */,
+			);
+			path = SymboImage;
+			sourceTree = "<group>";
+		};
+		A934450025666EBB00CBA152 /* SymboImage */ = {
+			isa = PBXGroup;
+			children = (
+				A93444FB25666DCD00CBA152 /* UIImage+SymboImage.h */,
+				A93444FC25666DCD00CBA152 /* UIImage+SymboImage.m */,
+				A93444DB256500DE00CBA152 /* SymboImageProvider.h */,
+				A93444D8256500CF00CBA152 /* SymboImageProvider.m */,
+				A93444CD2564F6EC00CBA152 /* SymboImageAsset.h */,
+				A93444CE2564F6EC00CBA152 /* SymboImageAsset.m */,
+				A93444C42564EEFE00CBA152 /* SymboImageConfig.h */,
+				A93444C52564EEFE00CBA152 /* SymboImageConfig.m */,
+			);
+			path = SymboImage;
+			sourceTree = "<group>";
+		};
+		A934450925667C0B00CBA152 /* ImageDynamicAsset */ = {
+			isa = PBXGroup;
+			children = (
+				A934450A25667C0B00CBA152 /* ImageDynamicAsset.h */,
+				A934451925667C3300CBA152 /* ImageDynamicAsset.m */,
+				A934451725667C3300CBA152 /* UIImage+ImageDynamicAsset.h */,
+				A934451625667C3300CBA152 /* UIImage+ImageDynamicAsset.m */,
+				A934450B25667C0B00CBA152 /* Info.plist */,
+			);
+			path = ImageDynamicAsset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A934450325667C0B00CBA152 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A934450C25667C0B00CBA152 /* ImageDynamicAsset.h in Headers */,
+				A934451B25667C3300CBA152 /* UIImage+ImageDynamicAsset.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A93444A62564CC8900CBA152 /* SymboImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93444C02564CC8A00CBA152 /* Build configuration list for PBXNativeTarget "SymboImage" */;
+			buildPhases = (
+				A93444A32564CC8900CBA152 /* Sources */,
+				A93444A42564CC8900CBA152 /* Frameworks */,
+				A93444A52564CC8900CBA152 /* Resources */,
+				A934451425667C0B00CBA152 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A934450E25667C0B00CBA152 /* PBXTargetDependency */,
+			);
+			name = SymboImage;
+			productName = SymboImage;
+			productReference = A93444A72564CC8900CBA152 /* SymboImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A934450725667C0B00CBA152 /* ImageDynamicAsset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A934451125667C0B00CBA152 /* Build configuration list for PBXNativeTarget "ImageDynamicAsset" */;
+			buildPhases = (
+				A934450325667C0B00CBA152 /* Headers */,
+				A934450425667C0B00CBA152 /* Sources */,
+				A934450525667C0B00CBA152 /* Frameworks */,
+				A934450625667C0B00CBA152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageDynamicAsset;
+			productName = ImageDynamicAsset;
+			productReference = A934450825667C0B00CBA152 /* ImageDynamicAsset.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A934449F2564CC8900CBA152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A93444A62564CC8900CBA152 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A934450725667C0B00CBA152 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = A93444A22564CC8900CBA152 /* Build configuration list for PBXProject "SymboImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A934449E2564CC8900CBA152;
+			productRefGroup = A93444A82564CC8900CBA152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93444A62564CC8900CBA152 /* SymboImage */,
+				A934450725667C0B00CBA152 /* ImageDynamicAsset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93444A52564CC8900CBA152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93444BA2564CC8A00CBA152 /* LaunchScreen.storyboard in Resources */,
+				A93444B72564CC8A00CBA152 /* Assets.xcassets in Resources */,
+				A93444B52564CC8900CBA152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A934450625667C0B00CBA152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93444A32564CC8900CBA152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93444FD25666DCD00CBA152 /* UIImage+SymboImage.m in Sources */,
+				A93444B22564CC8900CBA152 /* ViewController.m in Sources */,
+				A93444AC2564CC8900CBA152 /* AppDelegate.m in Sources */,
+				A93444BD2564CC8A00CBA152 /* main.m in Sources */,
+				A93444C62564EEFE00CBA152 /* SymboImageConfig.m in Sources */,
+				A93444AF2564CC8900CBA152 /* SceneDelegate.m in Sources */,
+				A93444CF2564F6EC00CBA152 /* SymboImageAsset.m in Sources */,
+				A93444D9256500CF00CBA152 /* SymboImageProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A934450425667C0B00CBA152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A934451D25667C3300CBA152 /* ImageDynamicAsset.m in Sources */,
+				A934451A25667C3300CBA152 /* UIImage+ImageDynamicAsset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A934450E25667C0B00CBA152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A934450725667C0B00CBA152 /* ImageDynamicAsset */;
+			targetProxy = A934450D25667C0B00CBA152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A93444B32564CC8900CBA152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93444B42564CC8900CBA152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93444B82564CC8A00CBA152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93444B92564CC8A00CBA152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93444BE2564CC8A00CBA152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A93444BF2564CC8A00CBA152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93444C12564CC8A00CBA152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AS4ANJJUVM;
+				INFOPLIST_FILE = SymboImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.com.SymboImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = teamDevforAll;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93444C22564CC8A00CBA152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AS4ANJJUVM;
+				INFOPLIST_FILE = SymboImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.com.SymboImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = teamDevforAll;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A934451225667C0B00CBA152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AS4ANJJUVM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ImageDynamicAsset/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.com.ImageDynamicAsset;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A934451325667C0B00CBA152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = AS4ANJJUVM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ImageDynamicAsset/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.com.ImageDynamicAsset;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93444A22564CC8900CBA152 /* Build configuration list for PBXProject "SymboImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93444BE2564CC8A00CBA152 /* Debug */,
+				A93444BF2564CC8A00CBA152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93444C02564CC8A00CBA152 /* Build configuration list for PBXNativeTarget "SymboImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93444C12564CC8A00CBA152 /* Debug */,
+				A93444C22564CC8A00CBA152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A934451125667C0B00CBA152 /* Build configuration list for PBXNativeTarget "ImageDynamicAsset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A934451225667C0B00CBA152 /* Debug */,
+				A934451325667C0B00CBA152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A934449F2564CC8900CBA152 /* Project object */;
+}

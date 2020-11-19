@@ -1,0 +1,19 @@
+{
+    "width":200,
+    "height":0,
+    "type":1,
+    "configs":[
+        {
+            "type":"light",
+            "name":"\\UE603",
+            "rgba":"#00ff00ff",
+            "file":"AssetFont"
+        },
+        {
+            "type":"dark",
+            "name":"\\UE603",
+            "rgba":"#0000ffff",
+            "file":"AssetFont"
+        }
+    ]
+}
